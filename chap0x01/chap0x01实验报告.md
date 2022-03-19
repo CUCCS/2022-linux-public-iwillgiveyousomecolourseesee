@@ -248,7 +248,7 @@
 
 ---
 ### 参考文献
-+ [VirtualBox 6.1.32 Oracle VM VirtualBox Extension Pack](下载网址https://www.virtualbox.org/wiki/Downloads)
++ [VirtualBox 6.1.32 Oracle VM VirtualBox Extension Pack](https://www.virtualbox.org/wiki/Downloads)
 + [如何查看Linux发行版本、内核版本信息](https://blog.csdn.net/weixin_33521678/article/details/116675154)
 + [Ubuntu20添加新网卡后如何设置自动启用并获取ip](https://blog.csdn.net/xiongyangg/article/details/110206220)
 + [Ubuntu官方文档](https://ubuntu.com/server/docs/network-configuration)
