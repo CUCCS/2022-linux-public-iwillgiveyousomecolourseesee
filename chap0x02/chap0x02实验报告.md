@@ -22,7 +22,7 @@
 |    | Ubuntu | Centos |
 |----|  ----  |  ----  |
 |安装软件|```sudo apt install```|```yum install```|
-|查看安装路径|```dpkg -L```|```rpm -pl tmux```<br>or<br>```rpm -qal |grep tmux```|
+|查看安装路径|```dpkg -L```|```rpm -pl tmux```or```rpm -qal |grep tmux```|
 |卸载软件|```sudo apt-get --purge remove```|```yum remove```|
 |文件名查找|```find ./ -name "*666*" 2>/dev/null```|```find ./ -name "*666*" 2>/dev/null```|
 |文件内容查找|```grep -r "666" ./ --exclude=*.cast 2>/dev/null```|```grep -r "666" ./ --exclude=*.cast 2>/dev/null```|
@@ -38,7 +38,7 @@
 |```p7zip```解压|```7z x new_test.7z -o./```|```7za x new_test.7z -o./```|
 |```rar```压缩|```rar a hk.rar *.txt```|```rar a hk.rar *.txt```|
 |```rar```解压|```rar x hk.rar```|```rar x hk.rar```|
-|子进程管理|```ping www.baidu.com```<br>```CTRL-C```<br>```ping www.baidu.com &```<br>```CTRL-C```<br>```fg```<br>```CTRL-C```<br>```ping www.baidu.com 1>/dev/null 2>&1 &```<br>```ps aux | grep ping```<br>```ping www.cuc.edu.cn 1>/dev/null 2>&1 &```<br>```killall ping``` |```ping www.baidu.com```<br>```CTRL-C```<br>```ping www.baidu.com &```<br>```CTRL-C```<br>```fg```<br>```CTRL-C```<br>```ping www.baidu.com 1>/dev/null 2>&1 &```<br>```ps aux | grep ping```<br>```ping www.cuc.edu.cn 1>/dev/null 2>&1 &```<br>```killall ping```|
+|子进程管理|```ping www.baidu.com```<br>```CTRL-C```<br>```ping www.baidu.com &```<br>```CTRL-C```<br>```fg```<br>```CTRL-C```<br>```ping www.baidu.com 1>/dev/null 2>&1 &```<br>```ps aux | grep ping```<br>```ping www.cuc.edu.cn 1>/dev/null 2>&1 &```<br>```killall ping```<br>  |  ```ping www.baidu.com```<br>```CTRL-C```<br>```ping www.baidu.com &```<br>```CTRL-C```<br>```fg```<br>```CTRL-C```<br>```ping www.baidu.com 1>/dev/null 2>&1 &```<br>```ps aux | grep ping```<br>```ping www.cuc.edu.cn 1>/dev/null 2>&1 &```<br>```killall ping```<br>  |
 |查看cpu|```cat /proc/cpuinfo```|```cat /proc/cpuinfo```|
 |查看内存大小|```cat /proc/meminfo```or```free -m```|```cat /proc/meminfo```or```free -m```|
 |查看硬盘数量与硬盘容量|```df -h```|```df -h```|
