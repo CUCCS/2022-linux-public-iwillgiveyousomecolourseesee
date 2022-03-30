@@ -22,7 +22,7 @@
 |    | Ubuntu | Centos |
 |----|  ----  |  ----  |
 |安装软件|```sudo apt install```|```yum install```|
-|查看安装路径|```dpkg -L```|```rpm -pl tmux``` <br>or<br> ```rpm -qal |grep tmux```|
+|查看安装路径|```dpkg -L```|```rpm -pl tmux```<br>or<br>```rpm -qal |grep tmux```|
 |卸载软件|```sudo apt-get --purge remove```|```yum remove```|
 |文件名查找|```find ./ -name "*666*" 2>/dev/null```|```find ./ -name "*666*" 2>/dev/null```|
 |文件内容查找|```grep -r "666" ./ --exclude=*.cast 2>/dev/null```|```grep -r "666" ./ --exclude=*.cast 2>/dev/null```|
