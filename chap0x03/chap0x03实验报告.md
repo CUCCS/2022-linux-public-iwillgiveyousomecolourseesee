@@ -478,7 +478,7 @@
 
     + 用`VirtualBox` 虚拟机的共享文件夹设置共享的本地文件`share_hk` 
 
-      ![设置共享文件夹](img\设置共享文件夹.png)
+      <img src="img/设置共享文件夹.png"/>
 
     + 在虚拟机上创建一个共享目录
 
@@ -551,7 +551,7 @@
     exit 0
     ```
 
-    ![编辑脚本](img\编辑脚本.png)
+    <img src="img/编辑脚本.png"/>
 
     **编辑配置文件**
 
@@ -570,9 +570,9 @@
 
     **运行**
 
-    ![start_test.service](img\test.service.png)
+    <img src="img/test.service.png"/>
 
-    ![stop_test.service](img\stop_test.service.png)
+    <img src="img/stop_test.service.png"/>
 
 + 如何通过`systemd`设置实现一个脚本在任何情况下被杀死之后会立即重新启动？实现杀不死？
 
